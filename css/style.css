@@ -42,6 +42,7 @@ header img{
 
 .header__logo{
 grid-area: logo;
+padding: 20px;
 }
 
 .header__nav{
@@ -421,4 +422,40 @@ footer{
     height: 40px;
 }
 
+/* media query mobile*/
+
+@media (max-width:576px){
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: none ;
+        grid-area: header;
+        grid-template-columns: none;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .navegador__lista li{
+
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .footer__principal__logo{
+        display: none;
+    }
+
+    .footer__principal{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__redes{
+
+        margin: 10px 0px;
+    }
+}
 
