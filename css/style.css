@@ -498,18 +498,18 @@ footer{
         }
     
         .portada__imagen img{
-            width: 50%;
+            width: 90%;
             height: 100px;            
             flex-grow: none1;
             object-fit: cover;
-            opacity: .8;
+            opacity:;
             transition: .5s ease;
         }
 
         .portada__imagen img:hover{
-            width: 100%;
-            opacity: 1;
-            filter: contrast(120%)
+            width: 90%;
+            opacity: ;
+            filter: 
         }
 
 
