@@ -182,6 +182,21 @@ padding: 20px;
     justify-content: center;
 
 }
+.tarjeta__servicio__catering{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.tarjeta__servicio__catering img{
+    object-fit:cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+}
+
 
 .tarjeta__servicio__texto{
     display: flex;
@@ -228,7 +243,7 @@ padding: 20px;
     margin: 20px 20px;
 }
 .productos__titulo p{
-    width: 600px;
+    width: 70%;
     text-align: justify;
 }
 .productos{
@@ -236,11 +251,9 @@ padding: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     margin-bottom: 100px;
     margin-top: 30px;
-
-
 }
 
 .tarjeta__producto{
@@ -255,11 +268,14 @@ padding: 20px;
     transition: .5s ease;
     width: 200px;
     height: 200px;
-    border-radius: ;
+    border-radius: 10% ;
 }
 
 .tarjeta__producto H3{
     font-size: 20px;
+    margin: 5px 0xp;
+    padding: 10px;
+    align-items: center;
 }
 .tarjeta__producto p{
     text-align: justify;
@@ -267,6 +283,9 @@ padding: 20px;
 }
 
 .tarjeta__producto img:hover{
+
+    transform:rotateX('120');
+    transition: .5s ease;
 }
 
 
@@ -286,11 +305,16 @@ padding: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .cursos__titulo h1{
 
     margin-bottom: 20px;
+}
+
+.cursos__titulo p{
+    text-align: justify;
 }
 
 
@@ -311,6 +335,7 @@ padding: 20px;
     transition: .5s ease;
 }
 .tarjeta__cursos p{
+    padding-top: 10px;
     text-align: center;
     width: 200px;
     margin-bottom: 100px;
@@ -328,6 +353,11 @@ padding: 20px;
     align-items: center;
     margin: 50px 20px;
 }
+.formulario__contenedor p{
+    text-align: justify;
+
+}
+
 
 .formulario{
 
@@ -339,7 +369,7 @@ padding: 20px;
     margin: 25px 25px;
     background-color: #998477;
     border-radius: 10%;
-    width: 800px;
+    width: 70%;
     height: max-content;
 
 }
@@ -348,7 +378,7 @@ padding: 20px;
     border-radius: 10%;
     margin: 5px;
     padding: 20px;
-    width: 600px;
+    width: 90%;
     height: 5px;
     border-style: solid;
     font-size: 25px;    
@@ -524,6 +554,75 @@ footer{
             filter: 
         }
 
+        .tarjeta__servicio{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .tarjeta__servicio__catering {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tarjeta__servicio__catering img{
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio img{
+
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio__texto{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .tarjeta__servicio__texto p{
+            padding: 5px;
+            width: 100%;
+            height: 100px;
+        }
+
+        .servicios__titulo p{
+            width: 100% ;
+            text-align: justify;
+        }
+        .cursos{
+            justify-content: center;
+        }
+        .cursos__imagenes{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+
+        .cursos__titulo{
+            justify-content: center;
+            width: 100%;      
+            
+        }
+
+        .cursos__titulo p{
+            text-align: justify;            
+        }
+        .formulario__contenedor p{
+            width: 70%;
+        
+        }
+        
 
     .footer__principal__logo{
         display: none;
@@ -550,6 +649,7 @@ footer{
 @media (min-width:577px) and (max-width:768px) {
 
     .header__nav{
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -580,6 +680,76 @@ footer{
             opacity: ;
             filter: ;
         }
+        .tarjeta__servicio{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .tarjeta__servicio__catering {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tarjeta__servicio__catering img{
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio img{
+
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio__texto{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .tarjeta__servicio__texto p{
+            padding: 5px;
+            width: 100%;
+            height: 100px;
+        }
+
+        .servicios__titulo p{
+            width: 100% ;
+            text-align: justify;
+        }
+        .cursos{
+            justify-content: center;
+        }
+        .cursos__imagenes{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+
+        .cursos__titulo{
+            justify-content: center;
+            width: 100%;      
+            
+        }
+
+        .cursos__titulo p{
+            text-align: justify;            
+        }
+        .formulario__contenedor p{
+            width: 70%;
+        
+        }
+
+
 
         .footer__principal__logo{
             display: none;
@@ -605,11 +775,39 @@ footer{
 @media (min-width:769px) and (max-width:992px) {
 
     .header__nav{
+        width: 100%;
         display: flex;
-            justify-content: flex-start;
+        justify-content: flex-start;
         align-items: center;
         grid-area: nav;
     }
+
+    .cursos{
+        justify-content: center;
+    }
+    .cursos__imagenes{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    .cursos__titulo{
+        justify-content: center;
+        width: 100%;      
+        
+    }
+
+    .cursos__titulo p{
+        text-align: justify;            
+    }
+    .formulario__contenedor p{
+        width: 70%;
+    
+    }
+
 
 
         .footer__principal__logo{
