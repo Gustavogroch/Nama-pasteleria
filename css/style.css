@@ -8,6 +8,10 @@ h2, h3{
     font-size: x-large;
 }
 
+a{
+    color: black;
+}
+
 
 body{
     background-color:#e3dbd3 ;
@@ -284,7 +288,7 @@ padding: 20px;
 
 .tarjeta__producto img:hover{
 
-    transform:rotateX('120');
+    transform:scale(1.5);
     transition: .5s ease;
 }
 
@@ -306,6 +310,7 @@ padding: 20px;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin: 25px 15px;
 }
 
 .cursos__titulo h1{
@@ -343,7 +348,7 @@ padding: 20px;
 }
 
 .tarjeta__cursos img:hover{
-    transform: scale(1.7);
+    transform: translate(0,-30px);
 }
 
 .formulario__contenedor{
