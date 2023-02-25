@@ -475,20 +475,16 @@ footer{
 
 @media (max-width:576px){   
 
-    body{
-        background-color:#e3dbd3 ;
+    body{        
         display: grid;
         grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-        grid-template-columns: 1fr;
+        "header header"
+        "main main"
+        "footer footer";
+        grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100px, auto);
-    
-    
     }
     
-
     header{
         display: flex;
         flex-direction: column;
@@ -500,7 +496,6 @@ footer{
         width: 576px;
     }
     main{
-        width: 576px;
         object-fit: contain;
     }
 
@@ -513,17 +508,17 @@ footer{
     }
     
     .bannerPrincipal{
+        padding: 5px;
         width: 100%;
-        height: 200px;
+        height: 150px;
         color: aliceblue;
         font-family: 'Pacifico', cursive;;
-        font-size: xx-large;
-        background-image: url(../imagenes/chef.webp);
+        font-size:x-large;
+        background-image: url(../imagenes/fondo.webp);
         display: flex;
         align-items: center;
         justify-content: center;
         background-attachment:fixed;
-        object-fit: fill;
     
     }
     .portada__titulo p{
@@ -647,6 +642,12 @@ footer{
 
         text-align: center;
         width: 90%;
+    }
+
+    .footer__map{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
     }
 }
 
@@ -774,6 +775,12 @@ footer{
     
             text-align: center;
         }
+        .footer__map{
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    
     
 }
 
