@@ -38,6 +38,25 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
+        li{
+            list-style-type: none;
+            text-decoration: none;
+            padding: 20px;
+            font-size:x-large;
+            &hover{
+                font-size: 40px;
+                border-radius: 50%;
+                background-color: rgb(122, 109, 109);
+              
+              }
+            a { 
+                font-family: 'Dancing Script', cursive;  
+                text-decoration: none;
+                color: rgb(240, 236, 237);
+                font-size: larger;
+                transition: .5s ease
+            }
+        }
     
     }
     
@@ -47,28 +66,3 @@ header{
         font-family: 'Dancing Script', cursive ;
         font-size: xx-large;
     }
-    .navegador__lista li{
-        list-style-type: none;
-        text-decoration: none;
-        padding: 20px;
-        font-size:x-large;
-    }
-    .navegador__lista li a:hover{
-        color: rgb(253, 253, 253);
-        transform: scale(1.5);
-    }
-    .navegador__lista li a { 
-        font-family: 'Dancing Script', cursive;  
-        text-decoration: none;
-        color: rgb(43, 16, 23);
-        font-size: larger;
-        transition: .5s ease
-    }
-    
-    .navegador__lista li:hover{
-      font-size: 40px;
-      border-radius: 50%;
-      background-color: rgb(122, 109, 109);
-    
-    }
-    

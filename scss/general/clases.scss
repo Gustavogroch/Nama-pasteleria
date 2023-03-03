@@ -1,0 +1,16 @@
+$color-primario: #e3dbd3;
+
+@each $color in $color-primario {
+    .bk-#{$color}{
+        background-color: $color;
+    }
+
+}
+
+@for $i from 2 to 6 {
+    .fontsize-#{$i}{
+
+        font-size: 8px * $i;
+
+    }
+}

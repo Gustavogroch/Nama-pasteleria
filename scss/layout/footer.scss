@@ -1,5 +1,6 @@
+
 footer{
-        background: linear-gradient(#e3dbd3, 38%,#998477);
+        background: linear-gradient($color-primario, 38%,$color-secundario);
         grid-area: footer;
         .footer__principal {
         padding: 20px;
