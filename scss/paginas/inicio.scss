@@ -1,0 +1,43 @@
+.portada{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+    align-items: center;
+    height: fit-content;
+}
+
+.portada__titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.portada__titulo h1{
+    margin-bottom: 30PX;
+    font-family: 'Solitreo', cursive;;
+}
+.portada__titulo p{
+    text-align: justify;
+    width: 600px;
+
+}
+
+.portada__imagen{
+    margin: 50px 0px 100px 0px;
+    display: flex;
+    width: 600px;
+    height: 430px;
+    }
+.portada__imagen img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.portada__imagen img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%)
+}

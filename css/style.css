@@ -1,8 +1,11 @@
+/*general*/
 *{
     margin: 0;
     padding: 0;
     font-family: 'Figtree', sans-serif;
 }
+
+/*tipografia*/
 h2, h3{
     font-family: 'Solitreo', cursive;
     font-size: x-large;
@@ -12,7 +15,7 @@ a{
     color: black;
 }
 
-
+/*body*/
 body{
     background-color:#e3dbd3 ;
     display: grid;
@@ -26,6 +29,7 @@ body{
 
 }
 
+/*header*/
 header{
     display: grid;
     grid-template-areas: 
@@ -35,72 +39,75 @@ header{
     align-items: center;
 
 }
-
-main{
-    grid-area: main;
-}
 header img{
     width: 100px;
     margin: 0;
 }
-
 .header__logo{
-grid-area: logo;
-padding: 20px;
-}
-
-.header__nav{
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-    grid-area: nav;
-    
-}
-.container-fluid{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.navegador__lista{
-    list-style-type: none;
-    text-decoration: none;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-
-
-.nav-item a{
-    font-family: 'Dancing Script', cursive ;
-    font-size: xx-large;
-}
-.navegador__lista li{
-    list-style-type: none;
-    text-decoration: none;
+    grid-area: logo;
     padding: 20px;
-    font-size:x-large;
-}
-.navegador__lista li a:hover{
-    color: rgb(253, 253, 253);
-    transform: scale(1.5);
-}
-.navegador__lista li a { 
-    font-family: 'Dancing Script', cursive;  
-    text-decoration: none;
-    color: rgb(43, 16, 23);
-    font-size: larger;
-    transition: .5s ease
-}
+    }
+    
+    .header__nav{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        grid-area: nav;
+        
+    }
+    .container-fluid{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navegador__lista{
+        list-style-type: none;
+        text-decoration: none;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    
+    
+    .nav-item a{
+        font-family: 'Dancing Script', cursive ;
+        font-size: xx-large;
+    }
+    .navegador__lista li{
+        list-style-type: none;
+        text-decoration: none;
+        padding: 20px;
+        font-size:x-large;
+    }
+    .navegador__lista li a:hover{
+        color: rgb(253, 253, 253);
+        transform: scale(1.5);
+    }
+    .navegador__lista li a { 
+        font-family: 'Dancing Script', cursive;  
+        text-decoration: none;
+        color: rgb(43, 16, 23);
+        font-size: larger;
+        transition: .5s ease
+    }
+    
+    .navegador__lista li:hover{
+      font-size: 40px;
+      border-radius: 50%;
+      background-color: rgb(122, 109, 109);
+    
+    }
+    
 
-.navegador__lista li:hover{
-  font-size: 40px;
-  border-radius: 50%;
-  background-color: rgb(122, 109, 109);
 
+
+/*main*/
+main{
+    grid-area: main;
 }
 
 .bannerPrincipal{
@@ -118,6 +125,8 @@ padding: 20px;
 
 
 }
+
+/*inicio*/
 
 .portada{
     display: flex;
@@ -165,7 +174,7 @@ padding: 20px;
 
 
 
-
+/*servicios*/
 
 .servicios__titulo{
     display: flex;
@@ -233,7 +242,7 @@ padding: 20px;
 }
 
 
-
+/*productos*/
 
 
 .productos__principal{
@@ -302,7 +311,7 @@ padding: 20px;
 
 
 
-
+/*cursos*/
 
 .cursos{
     display: flex;
@@ -364,6 +373,8 @@ padding: 20px;
     transform: translate(0,-30px);
 }
 
+/*formulario*/
+
 .formulario__contenedor{
 
     display: flex;
@@ -424,6 +435,7 @@ padding: 20px;
 
 }
 
+/*footer*/
 
 
 footer{

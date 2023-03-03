@@ -1,0 +1,67 @@
+.servicios__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.servicios__titulo p{
+    width: 100%;
+    text-align: justify;
+}
+
+.tarjeta__servicio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.tarjeta__servicio__catering{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.tarjeta__servicio__catering img{
+    object-fit:cover;
+    width: 98%;
+    height: 300px;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+
+.tarjeta__servicio__texto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+.tarjeta__servicio__texto h3{
+
+    margin-bottom: 20px;
+}
+.tarjeta__servicio__texto p{
+    text-align: justify;
+}
+.tarjeta__servicio__texto a{
+
+    color: black;
+}
+
+.tarjeta__servicio img{
+    object-fit:cover;
+    width: 98%;
+    height: 300px;
+    border-radius: 5%;
+    padding: 5px;
+
+}

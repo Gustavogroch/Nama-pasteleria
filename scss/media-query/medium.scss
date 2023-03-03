@@ -1,0 +1,148 @@
+@media (min-width:577px) and (max-width:749px) {
+
+    .header__nav{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        grid-area: nav;
+    }
+    .bannerPrincipal{
+        padding: 5px;
+        width: 100%;
+        height: 120px;
+        color: rgb(242, 236, 234);
+        font-family: 'Pacifico', cursive;;
+        font-size:x-large;
+        background-image: url(../imagenes/mostrador1.jpeg);
+        object-fit:fill;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment:fixed;
+        background-repeat:round;
+        }
+
+
+    .portada__imagen{
+        margin: 50px 0px 100px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        opacity: 1;
+
+        }
+    
+        .portada__imagen img{
+            width: 90%;
+            height: 100px;            
+            object-fit: cover;
+            transition: .5s ease;
+            opacity: 1;
+
+        }
+
+        .portada__imagen img:hover{
+            width: 90%;
+        }
+        .tarjeta__servicio{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .tarjeta__servicio__catering {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tarjeta__servicio__catering img{
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio img{
+
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio__texto{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .tarjeta__servicio__texto p{
+            padding: 5px;
+            width: 100%;
+            height: 100px;
+        }
+
+        .servicios__titulo p{
+            width: 100% ;
+            text-align: justify;
+        }
+        .cursos{
+            justify-content: center;
+        }
+        .cursos__imagenes{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+
+        .cursos__titulo{
+            justify-content: center;
+            width: 100%;      
+            
+        }
+
+        .cursos__titulo p{
+            text-align: justify;            
+        }
+        .formulario__contenedor p{
+            width: 70%;
+        
+        }
+
+
+
+        .footer__principal__logo{
+            display: none;
+        }
+    
+        .footer__principal{
+    
+            display: flex;
+            flex-direction: column;
+            .footer__map{
+                display: flex;
+                align-items: center;
+                flex-direction: column-reverse;
+            }
+    
+        }
+        .footer__redes{
+    
+            margin: 10px 0px;
+        }
+    
+        .copy p{
+    
+            text-align: center;
+        }
+    
+    
+}

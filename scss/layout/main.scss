@@ -1,0 +1,19 @@
+main{
+    grid-area: main;
+}
+
+.bannerPrincipal{
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;;
+    font-size: xx-large;
+    background-image: url(../imagenes/chef.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat:round;
+
+
+}
