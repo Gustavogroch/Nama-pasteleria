@@ -1,8 +1,7 @@
-$color-primario: #e3dbd3;
 
-@each $color in $color-primario {
-    .bk-#{$color}{
-        background-color: $color;
+@each $color-name, $color-value in $colores {
+    .bk-#{$color-name}{
+        background-color: $color-value;
     }
 
 }

@@ -1,6 +1,6 @@
 
 footer{
-        background: linear-gradient($color-primario, 38%,$color-secundario);
+        background: linear-gradient(map-get($colores, color-primario ), 38%,map-get($colores, color-secundario ));
         grid-area: footer;
         .footer__principal {
         padding: 20px;
@@ -41,20 +41,20 @@ footer{
         
 
     }
-    .copy{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-
-        p{
-            text-align: center;
-        }
-    
-    }
 
  
 }
+
+.copy{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
 
 
 

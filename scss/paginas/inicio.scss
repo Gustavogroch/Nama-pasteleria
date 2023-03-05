@@ -11,15 +11,15 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.portada__titulo h1{
-    margin-bottom: 30PX;
-    font-family: 'Solitreo', cursive;;
-}
-.portada__titulo p{
-    text-align: justify;
-    width: 600px;
-
+    h1{
+        margin-bottom: 30PX;
+        font-family: 'Solitreo', cursive;;
+    }
+    p{
+        text-align: justify;
+        width: 600px;
+    
+    }
 }
 
 .portada__imagen{
@@ -27,17 +27,16 @@
     display: flex;
     width: 600px;
     height: 430px;
-    }
-.portada__imagen img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-
-.portada__imagen img:hover{
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%)
+    img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+        &:hover{
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%)
+            }
+        }
 }
