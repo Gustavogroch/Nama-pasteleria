@@ -240,7 +240,7 @@ body {
   transform: translate(0, -30px); }
 
 .tarjeta__cursos p {
-  font-family: sol; }
+  font-family: 'Solitreo', cursive; }
 
 .imaneges__cursos {
   width: 50%;
@@ -350,13 +350,13 @@ body {
     width: 100%;
     text-align: justify; }
 
-.tarjeta__servicio {
+.tarjeta__servicio, .tarjeta__servicio__catering {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center; }
-  .tarjeta__servicio img {
+  .tarjeta__servicio img, .tarjeta__servicio__catering img {
     object-fit: cover;
     width: 98%;
     height: 300px;
@@ -416,7 +416,7 @@ body {
     opacity: 1; }
   .portada__imagen img:hover {
     width: 90%; }
-  .tarjeta__servicio {
+  .tarjeta__servicio, .tarjeta__servicio__catering {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -430,7 +430,7 @@ body {
     justify-content: center; }
   .tarjeta__servicio__catering img {
     margin-bottom: 80px; }
-  .tarjeta__servicio img {
+  .tarjeta__servicio img, .tarjeta__servicio__catering img {
     margin-bottom: 80px; }
   .tarjeta__servicio__texto {
     display: flex;
@@ -566,7 +566,7 @@ body {
     opacity: 1; }
   .portada__imagen img:hover {
     width: 90%; }
-  .tarjeta__servicio {
+  .tarjeta__servicio, .tarjeta__servicio__catering {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -580,7 +580,7 @@ body {
     justify-content: center; }
   .tarjeta__servicio__catering img {
     margin-bottom: 80px; }
-  .tarjeta__servicio img {
+  .tarjeta__servicio img, .tarjeta__servicio__catering img {
     margin-bottom: 80px; }
   .tarjeta__servicio__texto {
     display: flex;
@@ -596,6 +596,10 @@ body {
   .servicios__titulo p {
     width: 100%;
     text-align: justify; }
+  .productos__aclaracion {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .cursos {
     padding: 5px 5px; }
   .cursos__imagenes {
