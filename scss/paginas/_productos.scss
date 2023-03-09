@@ -7,8 +7,9 @@
 .productos__aclaracion{
 
     font-size: large;
-    margin-bottom: 50px;
+    margin: 5px 25px;
     font-weight: bold;
+    text-align: center;
     }
 .productos__titulo{
     display: flex;
@@ -26,7 +27,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
+    width: 80%;
     margin-bottom: 50px;
     margin-top: 30px;
     }
@@ -34,28 +35,32 @@
 .tarjeta__producto{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 5px;
     align-items: center;
-    border:0;
+    border-radius:10%;
+    width: auto;
+    background-color:$color-productos;
+    border: map-get($colores, color-secundario ) 4px double;
+    padding: 3px;
     img{
         object-fit: cover;
         transition: 1s ease;
         width:200px;
         display: block;
         margin: 0 auto;
+        padding: 1px;
         height: 200px;
-        border-radius: 10% ;
+        border-radius: 13% ;
+        background:linear-gradient(120deg, map-get($colores, color-primario ), 10%, map-get($colores, color-secundario ), 60%, map-get($colores, color-terciario ) );
+        transition: 1.5s ease;
         &:hover {
-            transform: rotate(360deg) scale(1.5);
-            transition: 1.5s ease;
-            background:linear-gradient(120deg, map-get($colores, color-primario ), 10%, map-get($colores, color-secundario ), 60%, map-get($colores, color-terciario ) );
+            transform: rotatey(180deg) scale(1.5);
+            transition: 2s ease;
+            background: none;
             padding: 1px;
         }
 
     }
-  
-
-    
     H3{
         font-size: 20px;
         margin: 5px 0xp;
@@ -63,7 +68,7 @@
         align-items: center;
     }
     p{
-        text-align: justify;
+        text-align: center;
         width: 200px;
 
     }

@@ -78,11 +78,15 @@ header {
   grid-template-areas: "logo nav nav nav";
   grid-area: header;
   grid-template-columns: 1fr 3fr;
-  align-items: center;
   justify-items: flex-start; }
   header img {
     width: 100px;
     margin: 20px; }
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; }
 
 .header__logo {
   grid-area: logo;
@@ -210,10 +214,10 @@ body {
 
 .texto__curso {
   text-align: justify;
-  margin-top: 20px; }
+  padding: 20px; }
   .texto__curso p {
-    width: 100%;
-    padding-top: 10px;
+    width: 50%;
+    padding-top: 20px;
     text-align: center;
     margin-bottom: 100px;
     font-family: 'Solitreo', cursive; }
@@ -282,8 +286,9 @@ body {
 
 .productos__aclaracion {
   font-size: large;
-  margin-bottom: 50px;
-  font-weight: bold; }
+  margin: 5px 25px;
+  font-weight: bold;
+  text-align: center; }
 
 .productos__titulo {
   display: flex;
@@ -300,28 +305,35 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90%;
+  width: 80%;
   margin-bottom: 50px;
   margin-top: 30px; }
 
 .tarjeta__producto {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 5px;
   align-items: center;
-  border: 0; }
+  border-radius: 10%;
+  width: auto;
+  background-color: #fff6f4c9;
+  border: #998477 4px double;
+  padding: 3px; }
   .tarjeta__producto img {
     object-fit: cover;
     transition: 1s ease;
     width: 200px;
     display: block;
     margin: 0 auto;
+    padding: 1px;
     height: 200px;
-    border-radius: 10%; }
+    border-radius: 13%;
+    background: linear-gradient(120deg, #e3dbd3, 10%, #998477, 60%, #5e524b);
+    transition: 1.5s ease; }
     .tarjeta__producto img:hover {
-      transform: rotate(360deg) scale(1.5);
-      transition: 1.5s ease;
-      background: linear-gradient(120deg, #e3dbd3, 10%, #998477, 60%, #5e524b);
+      transform: rotatey(180deg) scale(1.5);
+      transition: 2s ease;
+      background: none;
       padding: 1px; }
   .tarjeta__producto H3 {
     font-size: 20px;
@@ -329,7 +341,7 @@ body {
     padding: 10px;
     align-items: center; }
   .tarjeta__producto p {
-    text-align: justify;
+    text-align: center;
     width: 200px; }
 
 .servicios {
@@ -513,7 +525,6 @@ body {
     grid-template-areas: none;
     grid-area: header;
     grid-template-columns: none;
-    align-items: center;
     justify-content: center;
     width: 100%; }
     header .header__nav {
