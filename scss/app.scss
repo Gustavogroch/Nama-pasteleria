@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Figtree:ital,wght@1,300&family=Pacifico&family=Solitreo&display=swap');
-@import "./general/reset.scss";
-@import "./general/tipografia.scss";
-@import "./general/colores.scss";
-@import "./general/clases.scss";
+@import "./general/reset";
+@import "./general/tipografia";
+@import "./general/colores";
+@import "./general/clases";
 
 
-@import "./layout/footer.scss";
-@import "./layout/header.scss";
-@import "./layout/main.scss";
-@import "./layout/body.scss";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/body";
 
 
-@import "./paginas/contacto.scss";
-@import "./paginas/cursos.scss";
-@import "./paginas/inicio.scss";
-@import "./paginas/productos.scss";
-@import "./paginas/servicios.scss";
+@import "./paginas/contacto";
+@import "./paginas/cursos";
+@import "./paginas/inicio";
+@import "./paginas/productos";
+@import "./paginas/servicios";
 
-@import "./media-query/medium.scss";
-@import "./media-query/large.scss";
-@import "./media-query/small.scss";
+@import "./media-query/medium";
+@import "./media-query/large";
+@import "./media-query/small";
 
 
 

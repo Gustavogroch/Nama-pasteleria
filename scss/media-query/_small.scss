@@ -1,0 +1,221 @@
+@media (max-width:576px){   
+
+    body{        
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        grid-template-areas: none ;
+        grid-area: header;
+        grid-template-columns: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .header__nav{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            grid-area: nav;
+        }
+    
+        }
+    main{
+        object-fit: contain;
+    }
+
+    
+    .bannerPrincipal{
+        padding: 5px;
+        width: 100%;
+        height: 120px;
+        color: rgb(242, 236, 234);
+        font-family: 'Pacifico', cursive;;
+        font-size:large;
+        background-image: url(../imagenes/mostrador1.jpeg);
+        object-fit:initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment:fixed;
+        background-repeat:round;
+
+    
+    }
+    .portada__titulo p{
+
+        width: 100%;
+        text-align: justify;
+        font-size: 16px;
+    
+    }
+
+    .portada__imagen{
+        margin: 50px 0px 100px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        opacity: 1;
+
+        }
+    
+        .portada__imagen img{
+            width: 90%;
+            height: 100px;            
+            flex-grow: none1;
+            object-fit: cover;
+            transition: .5s ease;
+            opacity: 1;
+
+        }
+
+        .portada__imagen img:hover{
+            width: 90%;
+        }
+
+        .tarjeta__servicio{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .tarjeta__servicio__catering {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tarjeta__servicio__catering img{
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio img{
+
+            margin-bottom: 80px;
+
+        }
+        .tarjeta__servicio__texto{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .tarjeta__servicio__texto p{
+            padding: 5px;
+            width: 100%;
+            height: 100px;
+        }
+
+        .servicios__titulo p{
+            width: 100% ;
+            text-align: justify;
+        }
+
+        .tarjeta__producto{
+            img{
+                object-fit: cover;
+                transition: 1s ease;
+                width:250px;
+                display: block;
+                margin: 0 auto;
+                height: 250px;
+                border-radius: 10% ;
+                &:hover {
+                    transform: rotate(360deg) scale(1.25);
+                    transition: 1.5s ease;
+                    background:linear-gradient(120deg, map-get($colores, color-primario ), 10%, map-get($colores, color-secundario ), 60%, map-get($colores, color-terciario ) );
+                    padding: 1px;
+                }
+        
+            }
+        
+        }
+
+        .productos__aclaracion{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cursos{
+            padding: 5px 5px;
+        }
+        .cursos__imagenes{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .cursos__titulo{
+            justify-content: center;
+            width: 100%;      
+            
+        }
+
+        .cursos__titulo p{
+            text-align: justify;            
+        }
+
+
+        .formulario{
+
+            margin: 5px 5px;
+            width: 90%;
+        
+        }
+        
+        
+        .formulario__contenedor p{
+            width: 70%;
+        
+        }
+        
+
+    .footer__principal__logo{
+        display: none;
+    }
+
+    .footer__principal{
+        margin-top: 20px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__redes{
+
+        margin: 10px 0px;
+    }
+    .footer__map iframe{
+        margin: 20px 0px;
+    }
+
+    .copy p{
+
+        text-align: center;
+        width: 90%;
+    }
+
+    
+    footer .footer__principal .footer__map{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

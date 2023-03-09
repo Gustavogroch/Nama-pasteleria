@@ -95,34 +95,14 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
-
-.navegador__lista {
-  list-style-type: none;
-  text-decoration: none;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-  .navegador__lista li {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 20px;
-    font-size: x-large; }
-    .navegador__lista lihover {
-      font-size: 40px;
-      border-radius: 50%;
-      background-color: #7a6d6d; }
-    .navegador__lista li a {
-      font-family: 'Dancing Script', cursive;
-      text-decoration: none;
-      color: #f0eced;
-      font-size: larger;
-      transition: .5s ease; }
+  justify-content: center;
+  margin: 0; }
 
 .nav-item a {
   font-family: 'Dancing Script', cursive;
   font-size: xx-large; }
+  .nav-item a:hover {
+    color: black; }
 
 main {
   grid-area: main; }
@@ -198,7 +178,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 0px; }
+  margin: 25px 0px; }
 
 .cursos__titulo {
   display: flex;
@@ -218,7 +198,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 100px; }
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 90%; }
   .cursos__imagenes img {
     border-radius: 50%;
     width: 200px;
@@ -236,14 +218,22 @@ body {
     margin-bottom: 100px;
     font-family: 'Solitreo', cursive; }
 
-.tarjeta__cursos img:hover {
-  transform: translate(0, -30px); }
-
-.tarjeta__cursos p {
-  font-family: 'Solitreo', cursive; }
+.tarjeta__cursos {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  width: 200px; }
+  .tarjeta__cursos img:hover {
+    transform: translate(0, -30px); }
+  .tarjeta__cursos p {
+    font-family: 'Solitreo', cursive;
+    text-align: center; }
 
 .imaneges__cursos {
-  width: 50%;
+  width: 80%;
   height: 300px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -310,7 +300,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 70%;
+  width: 90%;
   margin-bottom: 50px;
   margin-top: 30px; }
 
@@ -321,9 +311,11 @@ body {
   align-items: center;
   border: 0; }
   .tarjeta__producto img {
-    object-fit: fill;
+    object-fit: cover;
     transition: 1s ease;
     width: 200px;
+    display: block;
+    margin: 0 auto;
     height: 200px;
     border-radius: 10%; }
     .tarjeta__producto img:hover {
@@ -340,6 +332,10 @@ body {
     text-align: justify;
     width: 200px; }
 
+.servicios {
+  max-width: 1440px;
+  margin: 0 auto; }
+
 .servicios__titulo {
   display: flex;
   flex-direction: column;
@@ -347,7 +343,7 @@ body {
   justify-content: center;
   margin: 20px 20px; }
   .servicios__titulo p {
-    width: 100%;
+    width: 80%;
     text-align: justify; }
 
 .tarjeta__servicio, .tarjeta__servicio__catering {
@@ -452,8 +448,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 100px; }
+    justify-content: space-between; }
   .cursos__titulo {
     justify-content: center;
     width: 100%; }
@@ -488,8 +483,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 100px; }
+    justify-content: space-between; }
   .cursos__titulo {
     justify-content: center;
     width: 100%; }
@@ -596,6 +590,19 @@ body {
   .servicios__titulo p {
     width: 100%;
     text-align: justify; }
+  .tarjeta__producto img {
+    object-fit: cover;
+    transition: 1s ease;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 10%; }
+    .tarjeta__producto img:hover {
+      transform: rotate(360deg) scale(1.25);
+      transition: 1.5s ease;
+      background: linear-gradient(120deg, #e3dbd3, 10%, #998477, 60%, #5e524b);
+      padding: 1px; }
   .productos__aclaracion {
     display: flex;
     align-items: center;
@@ -606,13 +613,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 100px; }
+    justify-content: space-between; }
   .cursos__titulo {
     justify-content: center;
     width: 100%; }
   .cursos__titulo p {
     text-align: justify; }
+  .formulario {
+    margin: 5px 5px;
+    width: 90%; }
   .formulario__contenedor p {
     width: 70%; }
   .footer__principal__logo {

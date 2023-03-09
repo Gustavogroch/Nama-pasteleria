@@ -1,0 +1,90 @@
+.cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0px;
+    
+}
+    
+.cursos__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 25px 15px;
+    h1{
+
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: justify;
+        width: 80%;
+    }
+}
+
+
+.cursos__imagenes{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 90%;
+    img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        transition: .5s ease;
+    }
+}
+.texto__curso{
+    text-align: justify;
+    margin-top: 20px;
+    p{
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+        margin-bottom: 100px;
+        font-family: 'Solitreo', cursive;
+    }
+    
+}
+
+.tarjeta__cursos {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items:center;
+    justify-content: space-between;
+    border:0;
+    width: 200px;
+
+
+    img {
+        &:hover{
+    transform: translate(0,-30px);
+        }
+    }
+    p{
+        font-family: 'Solitreo', cursive;
+        text-align: center;
+    }
+
+}
+
+.imaneges__cursos{
+    width: 80%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    object-fit:cover;
+    border: map-get($colores, color-secundario ) 5px double;
+}
+

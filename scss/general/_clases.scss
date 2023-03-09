@@ -1,0 +1,15 @@
+
+@each $color-name, $color-value in $colores {
+    .bk-#{$color-name}{
+        background-color: $color-value;
+    }
+
+}
+
+@for $i from 2 to 6 {
+    .fontsize-#{$i}{
+
+        font-size: 8px * $i;
+
+    }
+}
