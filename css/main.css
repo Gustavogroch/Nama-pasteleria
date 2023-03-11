@@ -122,7 +122,8 @@ main {
   align-items: center;
   justify-content: center;
   background-attachment: fixed;
-  background-repeat: round; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 body {
   background-color: #e3dbd3;
@@ -375,14 +376,15 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 400px;
   align-items: center;
   justify-content: center;
-  margin: 20px 20px; }
+  margin: 20px 20px;
+  margin-bottom: 50px; }
   .tarjeta__servicio__texto h3 {
     margin-bottom: 20px; }
   .tarjeta__servicio__texto p {
-    text-align: justify; }
+    text-align: justify;
+    margin-bottom: 30px; }
   .tarjeta__servicio__texto a {
     color: black; }
 
@@ -591,13 +593,12 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 200px;
     padding: 5px;
     margin: 10px; }
   .tarjeta__servicio__texto p {
     padding: 5px;
     width: 100%;
-    height: 100px; }
+    margin-bottom: 5px; }
   .servicios__titulo p {
     width: 100%;
     text-align: justify; }
@@ -610,10 +611,7 @@ body {
     height: 250px;
     border-radius: 10%; }
     .tarjeta__producto img:hover {
-      transform: rotate(360deg) scale(1.25);
-      transition: 1.5s ease;
-      background: linear-gradient(120deg, #e3dbd3, 10%, #998477, 60%, #5e524b);
-      padding: 1px; }
+      transform: rotatey(180deg) scale(1.3); }
   .productos__aclaracion {
     display: flex;
     align-items: center;

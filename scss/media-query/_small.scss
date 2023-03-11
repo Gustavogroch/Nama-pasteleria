@@ -112,14 +112,13 @@
             display: flex;
             justify-content: center;
             width: 100%;
-            height: 200px;
             padding: 5px;
             margin: 10px;
         }
         .tarjeta__servicio__texto p{
             padding: 5px;
             width: 100%;
-            height: 100px;
+            margin-bottom: 5px;
         }
 
         .servicios__titulo p{
@@ -137,12 +136,11 @@
                 height: 250px;
                 border-radius: 10% ;
                 &:hover {
-                    transform: rotate(360deg) scale(1.25);
-                    transition: 1.5s ease;
-                    background:linear-gradient(120deg, map-get($colores, color-primario ), 10%, map-get($colores, color-secundario ), 60%, map-get($colores, color-terciario ) );
-                    padding: 1px;
+                    transform: rotatey(180deg) scale(1.3);
                 }
         
+                
+                
             }
         
         }
