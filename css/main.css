@@ -324,10 +324,10 @@ body {
     object-fit: cover;
     transition: 1s ease;
     width: 200px;
+    height: 200px;
     display: block;
     margin: 0 auto;
     padding: 1px;
-    height: 200px;
     border-radius: 13%;
     background: linear-gradient(120deg, #e3dbd3, 10%, #998477, 60%, #5e524b);
     transition: 1.5s ease; }

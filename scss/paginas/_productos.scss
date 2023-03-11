@@ -45,11 +45,12 @@
     img{
         object-fit: cover;
         transition: 1s ease;
-        width:200px;
+        @include tamaño(200px, 200px)
+        //width:200px;
+        //height: 200px;
         display: block;
         margin: 0 auto;
         padding: 1px;
-        height: 200px;
         border-radius: 13% ;
         background:linear-gradient(120deg, map-get($colores, color-primario ), 10%, map-get($colores, color-secundario ), 60%, map-get($colores, color-terciario ) );
         transition: 1.5s ease;

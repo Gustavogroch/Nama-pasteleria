@@ -83,6 +83,10 @@
             width: 90%;
         }
 
+
+
+        //servicios//
+
         .tarjeta__servicio{
             width: 100%;
             display: flex;
@@ -126,6 +130,8 @@
             text-align: justify;
         }
 
+        //productos//
+
         .tarjeta__producto{
             img{
                 object-fit: cover;
@@ -150,6 +156,12 @@
             align-items: center;
             justify-content: center;
         }
+
+
+
+
+        //cursos//
+
         .cursos{
             padding: 5px 5px;
         }
@@ -172,6 +184,8 @@
         }
 
 
+        //formulario//
+
         .formulario{
 
             margin: 5px 5px;
@@ -184,6 +198,10 @@
             width: 70%;
         
         }
+
+
+
+        //footer//
         
 
     .footer__principal__logo{
