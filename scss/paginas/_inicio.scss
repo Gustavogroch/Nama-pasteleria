@@ -26,8 +26,6 @@
     margin: 50px 0px 100px 0px;
     display: flex;
     @include tamaño(600px, 430px)
-    //width: 600px;
-    //height: 430px;
     img{
         width: 0px;
         flex-grow: 1;
