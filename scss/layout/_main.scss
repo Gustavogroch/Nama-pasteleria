@@ -5,9 +5,6 @@ main{
 .bannerPrincipal{
     width: 100%;
     height: 200px;
-    color: aliceblue;
-    font-family: 'Pacifico', cursive;
-    font-size: xx-large;
     background-image: url(../imagenes/chef.webp);
     display: flex;
     align-items: center;
@@ -16,3 +13,27 @@ main{
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+.bannerPrincipal_h1{
+        color: aliceblue;
+        font-family: 'Pacifico', cursive;
+        font-size: xx-large;
+
+        opacity: 0;
+        animation-name: aparecer;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes aparecer {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+
+

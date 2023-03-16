@@ -72,16 +72,18 @@
         .portada__imagen img{
             width: 90%;
             height: 100px;            
-            flex-grow: none1;
+            flex-grow: none;
             object-fit: cover;
             transition: .5s ease;
             opacity: 1;
+            &:hover{
+                height: 200px;
+                width: 90%;
+                height: 200px;
+            }
 
         }
 
-        .portada__imagen img:hover{
-            width: 90%;
-        }
 
 
 
